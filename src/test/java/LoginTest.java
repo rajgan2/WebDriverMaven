@@ -21,7 +21,7 @@ public class LoginTest {
 	@Test
 	public void doLogin(){
 		
-		//This is updated now
+		//This is zoho app test
 		driver.get("https://www.zoho.eu/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//a[@class='zh-login']")).click();
